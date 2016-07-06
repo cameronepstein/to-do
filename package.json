@@ -4,7 +4,8 @@
   "description": "Front-end To-do list",
   "main": "index.js",
   "scripts": {
-    "test": "(mocha)"
+    "test": "mocha --recursive",
+    "start": "http-server . -p 3000"
   },
   "repository": {
     "type": "git",

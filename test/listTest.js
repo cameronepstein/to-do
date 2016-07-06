@@ -1,7 +1,7 @@
 var assert = require('chai').assert;
 var expect = require('chai').expect;
 var sinon = require('sinon');
-var List = require('../lib/list.js');
+var List = require('../lib/list.js').List;
 
 describe('List', function() {
 
