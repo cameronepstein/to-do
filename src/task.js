@@ -20,3 +20,5 @@
 
   exports.Task = Task;
 })(this);
+
+console.log()

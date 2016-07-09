@@ -10,5 +10,8 @@ submitform.addEventListener('submit', function(event) {
 
 list.addEventListener('click', function(event) {
   tasklist.tasks[event.srcElement.id.slice(-1)].finished()
+  console.log(event.srcElement);
   list.innerHTML = tasklist.printHTML();
 })
+
+COMPLETE ? REDOBUTTON : COMPLETEBUTTON
